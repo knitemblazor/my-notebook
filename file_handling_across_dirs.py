@@ -1,3 +1,4 @@
+import shutil
 d=[]
 for image in os.listdir("/media/her/bh/images_to_json/images"):
     if image not in e:
