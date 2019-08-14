@@ -1,3 +1,14 @@
+# Sample Input
+
+# AABCAAADA
+# 3 #parts to split the string   
+
+# Sample Output
+
+# AB
+# CA
+# AD
+
 def splitter(string, l, m, n):
     return string[l:l]
 def merge_the_tools(string, k):
