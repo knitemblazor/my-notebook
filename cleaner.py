@@ -22,6 +22,8 @@ def cleaner(srt_file,lang):
     final.append(sentence)
     return(final)
 
+stoplist = set('for a of the and to in'.split()) # will strightaway remove these words
+
 ls1=cleaner("eng.srt","english")
 ls2=cleaner("french.srt","french")
 collection=[]
